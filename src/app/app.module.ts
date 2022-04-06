@@ -3,8 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-//PrimeNg
-import { ButtonModule } from 'primeng/button';
+//Modulo personalizado
+import { SharedModule } from './shared/shared.module';
+
 
 @NgModule({
   declarations: [
@@ -12,7 +13,7 @@ import { ButtonModule } from 'primeng/button';
   ],
   imports: [
     BrowserModule,
-    ButtonModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
