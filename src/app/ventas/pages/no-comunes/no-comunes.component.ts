@@ -29,7 +29,6 @@ export class NoComunesComponent  {
   }
 
   cambiarCliente() {
-    console.log('cambiando');
     this.nombre= 'Futami';
     this.genero= 'femenino';
   }
@@ -52,7 +51,7 @@ export class NoComunesComponent  {
   {
     nombre: 'Raven',
     vuela: 'true'
-  },
+  }, 
   {
     nombre: 'Chico bestia',
     vuela: true
